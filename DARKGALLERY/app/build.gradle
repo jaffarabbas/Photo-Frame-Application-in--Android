@@ -5,6 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
+        vectorDrawables.useSupportLibrary = true
         applicationId "com.example.dark_gallery"
         minSdkVersion 15
         targetSdkVersion 30
